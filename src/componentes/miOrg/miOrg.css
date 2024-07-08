@@ -1,0 +1,45 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto;
+    padding:  8px 100px;
+    gap: 100px;
+   
+}
+
+.orgSection {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    margin: 80px 0; /* Añade margen arriba y abajo */
+}
+
+.title {
+    color: #6278F7;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.orgSection img {
+    cursor: pointer;
+}
+
+.title__img {
+    width: 100%;
+    height: auto;
+}
+
+.item-2 {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    padding-bottom: 25px; /* Espacio debajo del título */
+    border-bottom: 4px solid #6278F7; /* Borde inferior */
+}
+
+.item-3 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+}
