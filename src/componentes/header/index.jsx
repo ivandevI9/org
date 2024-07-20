@@ -6,7 +6,7 @@ const Header = () => {
         <>
             <header className="header">
                 {/* Imagen del encabezado con la fuente de la imagen y texto alternativo */}
-                <img src="/img/header.png" alt='Org' />
+                <img src="/img/Header.png" alt='header' />
             </header>
         </>
 

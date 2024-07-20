@@ -9,6 +9,7 @@ import Footer from './componentes/footer/index.jsx';
 import Header from './componentes/header/index.jsx';
 
 
+
 function App() {
   // Estado para mostrar u ocultar el formulario
   const [mostrarFormulario, actualizarMostrar] = useState(true)
