@@ -1,16 +1,19 @@
-.lista-opciones label {
-    display: block;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 8px;
-}
+ /* Estilo para la etiqueta del <select> */
+ .lista-opciones label {
+     display: block;
+     font-size: 18px;
+     font-weight: 600;
+     font-family: "Montserrat", sans-serif;
+     margin-bottom: 8px;
+ }
 
-.lista-opciones select {
-    width: 100%;
-    background-color: white;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    padding: 24px;
-    border: none;
-    outline-color: #6278F7;
-}
+
+ /* Estilo para el elemento <select> */
+ .lista-opciones select {
+     width: 100%;
+     background-color: white;
+     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+     padding: 24px;
+     border: none;
+     outline-color: #6278F7;
+ }

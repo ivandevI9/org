@@ -1,17 +1,20 @@
-.campo{
-    margin:  24px 0;
+/* Contenedor principal del campo */
+.campo {
+    margin: 24px 0;
     font-family: "Montserrat", sans-serif;
 }
+
+/* Estilos para la etiqueta dentro del campo */
 .campo label {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 600;
     display: block;
     margin-bottom: 8px;
-
 }
 
-.campo input{
+/* Estilos para el input dentro del campo */
+.campo input {
     width: 100%;
     background-color: #FFFFFF;
     box-shadow: 10px 10px 30px 0px #0000000F;
@@ -20,9 +23,9 @@
     outline-color: #6278F7;
     font-size: 16px;
     box-sizing: border-box;
-    
 }
 
+/* Estilos específicos para inputs de tipo color */
 .campo-color input {
     height: 40px;
     padding: 5px 20px;

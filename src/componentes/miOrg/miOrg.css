@@ -1,45 +1,50 @@
+/* Define un contenedor con un diseño de cuadrícula de 3 columnas y dos filas */
 .contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px auto;
-    padding:  8px 100px;
+    padding: 8px 100px;
     gap: 100px;
-   
 }
 
+/* Define la sección de la organización para que ocupe el 100% del ancho, centrada horizontalmente */
 .orgSection {
     width: 100%;
     display: flex;
-    justify-content: center; /* Centra horizontalmente el contenido */
-    margin: 80px 0; /* Añade margen arriba y abajo */
+    justify-content: center;
+    margin: 80px 0;
 }
 
+/* Estilo del título */
 .title {
     color: #6278F7;
     font-size: 40px;
     font-weight: 400;
 }
 
-
+/* Hace que las imágenes dentro de .orgSection tengan el cursor de puntero */
 .orgSection img {
     cursor: pointer;
 }
 
+/* Ajusta la imagen para que ocupe el 100% del ancho del contenedor, manteniendo la proporción */
 .title__img {
     width: 100%;
     height: auto;
 }
 
+/* Centra el contenido del elemento item-2 y agrega un borde en la parte inferior */
 .item-2 {
     display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
-    text-align: center; /* Alinea el texto al centro */
-    padding-bottom: 25px; /* Espacio debajo del título */
-    border-bottom: 4px solid #6278F7; /* Borde inferior */
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding-bottom: 25px; 
+    border-bottom: 4px solid #6278F7; 
 }
 
+/* Centra el contenido del elemento item-3 */
 .item-3 {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: center;
 }

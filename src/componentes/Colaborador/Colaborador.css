@@ -1,23 +1,26 @@
+/* Selector para el contenedor principal del colaborador */
 .colaborador {
     width: 280px;
     margin-bottom: 24px;
     position: relative;
-
 }
 
+/* Selector para el encabezado del colaborador que contiene la foto */
 .colaborador .encabezado {
     background-color: #f0f0f0;
     border-radius: 10px 10px 0 0;
 }
 
-.colaborador img{
+/* Selector para la imagen del colaborador dentro del encabezado */
+.colaborador img {
     width: 100px;
     border-radius: 50%;
     position: relative;
     bottom: -50px;
 }
 
-.colaborador .info{
+/* Selector para la sección de información del colaborador */
+.colaborador .info {
     background: #FFFFFF;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0 0 10px 10px;
@@ -27,7 +30,8 @@
     font-family: "Monserrat", sans-serif;
 }
 
-.colaborador .info h4{
+/* Selector para el nombre del colaborador dentro de la sección de información */
+.colaborador .info h4 {
     color: #6278F7;
     font-size: 18px;
     line-height: 22px;
@@ -35,7 +39,8 @@
     margin-bottom: 8px;
 }
 
-.colaborador .info h5{
+/* Selector para el puesto del colaborador dentro de la sección de información */
+.colaborador .info h5 {
     color: #212121;
     font-size: 18px;
     padding: 0 24px;
@@ -44,7 +49,8 @@
     margin: 0;
 }
 
-.eliminar{
+/* Selector para el icono de eliminación */
+.eliminar {
     position: absolute;
     right: -15px;
     top: -15px;

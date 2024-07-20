@@ -1,32 +1,33 @@
-.equipo{
+/* Estilo para la sección del equipo */
+.equipo {
     width: 100%;
     padding: 32px;
     box-sizing: border-box;
     text-align: center;
     font-size: 32px;
     position: relative;
-    
 }
 
-.input-color{
+/* Estilo para el input de color */
+.input-color {
     position: absolute;
     top: 20px;
     right: 50px;
 }
 
-.equipo h3{
+/* Estilo para el título (h3) dentro del equipo */
+.equipo h3 {
     font-weight: 400;
     color: #212121;
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;
-    
 }
 
-.colaboradores{
+/* Estilo para el contenedor de colaboradores */
+.colaboradores {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 30px 0;
-    
 }

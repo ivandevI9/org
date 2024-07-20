@@ -1,26 +1,19 @@
+// Importación del archivo CSS para los estilos del componente
 import "./Footer.css"
 
+// Definición del componente funcional Footer
 const Footer = () => {
-    return <footer className="footer">
-        <div className="imgBack">
-            <img src="/img/Footer.png" alt="ImgBack" />
-        </div>
-
-        {/* <div className="redes">
-            <a href='https://www.aluracursos.com/'>
-                <img src="/img/facebook.png" alt="Facebook" />
-            </a>
-            <a href='https://www.aluracursos.com/'>
-                <img src="/img/twitter.png" alt="twitter" />
-            </a>
-            <a href='https://www.aluracursos.com/'>
-                <img src="/img/instagram.png" alt="instagram" />
-            </a>
-        </div>
-        <img src='/img/Logo.png' alt='org' />
-        <strong>Desarrollado por Alura</strong> */}
-        
-    </footer>
+    return (
+        // Elemento <footer> que actúa como el pie de página del sitio
+        <footer className="footer">
+            {/* Contenedor para la imagen de fondo en el pie de página */}
+            <div className="imgBack">
+                {/* Imagen dentro del contenedor, con fuente y texto alternativo */}
+                <img src="/img/Footer.png" alt="ImgBack" />
+            </div>    
+        </footer>
+    );
 }
 
-export default Footer
+// Exportación del componente para ser usado en otros archivos
+export default Footer;

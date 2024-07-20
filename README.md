@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Proyecto de Gestión de Colaboradores
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto de gestión de colaboradores, diseñado para administrar información de empleados y equipos en una organización. Permite la adición, edición y eliminación de colaboradores y equipos, con una interfaz amigable y funcionalidades interactivas.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- **Sección de Organización:** Permite agregar nuevos colaboradores y equipos.
+- **Formulario de Colaboradores:** Incluye campos para nombre, puesto, foto y equipo, además de un formulario para crear nuevos equipos.
+- **Gestión de Equipos:** Puedes crear equipos y asignar colaboradores a ellos.
+- **Interactividad:** Incluye botones para eliminar colaboradores y marcar como favoritos.
+- **Diseño Responsivo:** Adaptado para diferentes dispositivos y tamaños de pantalla.
 
-### `npm start`
+## Uso
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Visualización del Proyecto:** Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://org-two-iota.vercel.app/).
+2. **Agregar Colaboradores:** Utiliza el formulario en la sección de organización para añadir nuevos colaboradores.
+3. **Crear Equipos:** Usa el formulario para crear nuevos equipos y asignar colaboradores.
+4. **Eliminar Colaboradores:** Puedes eliminar colaboradores desde la interfaz de usuario.
+5. **Marcar Favoritos:** Marca colaboradores como favoritos y cambia su estado con el icono de corazón.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías Utilizadas
 
-### `npm test`
+- HTML
+- CSS
+- JavaScript
+- React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Instalación
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/Ivanmx19/org.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instalar Dependencias: Navega al directorio del proyecto y ejecuta:
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Iniciar el Proyecto: Ejecuta el proyecto localmente con:
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Créditos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Este proyecto fue desarrollado como parte de un ejercicio de desarrollo web.
+- Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
+- Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
 
-## Learn More
+## Despliegue
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Org](https://org-two-iota.vercel.app/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licencia
+Este proyecto está bajo la Licencia MIT.

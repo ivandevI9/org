@@ -1,16 +1,18 @@
 import { useState } from 'react';
 import { v4 as uuid } from 'uuid';
 import './App.css';
-import Header from './componentes/header/Header.js';
+
 import Formulario from './componentes/formulario/formulario.js';
 import MiOrg from './componentes/miOrg/index.js';
 import Equipo from './componentes/equipo/index.js';
 import Footer from './componentes/footer/index.jsx';
+import Header from './componentes/header/index.jsx';
 
 
 function App() {
-
+  // Estado para mostrar u ocultar el formulario
   const [mostrarFormulario, actualizarMostrar] = useState(true)
+  // Estado inicial para la lista de colaboradores
   const [colaboradores, actualizarColaboradores] = useState([
     {
       id: uuid(),
@@ -53,7 +55,7 @@ function App() {
       fav: true
     }
   ])
-
+  // Estado inicial para la lista de equipos
   const [equipos, actualizarEquipos] = useState([
     {
       id: uuid(),
@@ -100,90 +102,84 @@ function App() {
 
   ])
 
-
-
-
+  // Función para alternar la visibilidad del formulario
   const cambiarMostrar = () => {
-    actualizarMostrar(!mostrarFormulario)
-  }
+    actualizarMostrar(!mostrarFormulario);
+  };
 
-
-  //Registrar colaborador
+  // Función para registrar un nuevo colaborador
   const registrarColaborador = (colaborador) => {
     console.log('Nuevo colaborador', colaborador);
-    actualizarColaboradores([...colaboradores, colaborador])
+    actualizarColaboradores([...colaboradores, colaborador]);
+  };
 
-  }
-
-  //Eliminar colaborador
+  // Función para eliminar un colaborador por ID
   const eliminarColaborador = (id) => {
     console.log('Eliminar colaborador', id);
-    const nuevosColaboradores = colaboradores.filter((colaborador) => colaborador.id !== id)
+    const nuevosColaboradores = colaboradores.filter((colaborador) => colaborador.id !== id);
     actualizarColaboradores(nuevosColaboradores);
-  }
+  };
 
-  //Actualizar color de equipo
+  // Función para actualizar el color de un equipo
   const actualizarColor = (color, id) => {
     console.log("actualizar: ", color, id);
     const equiposActualizados = equipos.map((equipo) => {
       if (equipo.id === id) {
-        equipo.colorPrimario = color
+        equipo.colorPrimario = color;
       }
-      return equipo
-    })
+      return equipo;
+    });
 
-    actualizarEquipos(equiposActualizados)
-  }
+    actualizarEquipos(equiposActualizados);
+  };
 
-
-  // Crear equipo
+  // Función para crear un nuevo equipo
   const crearEquipo = (nuevoEquipo) => {
     console.log(nuevoEquipo);
-    actualizarEquipos([...equipos, { ...nuevoEquipo, id: uuid() }])
-  }
+    actualizarEquipos([...equipos, { ...nuevoEquipo, id: uuid() }]);
+  };
 
+  // Función para marcar o desmarcar un colaborador como favorito
   const like = (id) => {
     console.log('like');
     const colaboradoresActualizados = colaboradores.map((colaborador) => {
-      if(colaborador.id === id) {
+      if (colaborador.id === id) {
         colaborador.fav = !colaborador.fav;
       }
       return colaborador;
-  })
+    });
 
-  actualizarColaboradores(colaboradoresActualizados)
-}
+    actualizarColaboradores(colaboradoresActualizados);
+  };
 
-
-return (
-  <div>
-    <Header />
-    {/* {mostrarFormulario === true ? <Formulario /> : <></>} */}
-    {mostrarFormulario && <Formulario
-      equipos={equipos.map((equipo) => equipo.titulo)}
-      registrarColaborador={registrarColaborador}
-      crearEquipo={crearEquipo}
-
-    />
-    }
-
-    <MiOrg cambiarMostrar={cambiarMostrar} />
-    {
-      equipos.map((equipo) => <Equipo
-        datos={equipo}
-        key={equipo.titulo}
-        colaboradores={colaboradores.filter(colaborador => colaborador.equipo === equipo.titulo)}
-        eliminarColaborador={eliminarColaborador}
-        actualizarColor={actualizarColor}
-        like={like}
-      />)
-    }
-
-    <Footer />
-
-
-  </div>
-);
+  // Renderizado de los componentes
+  return (
+    <div>
+      <Header/>
+      {/* Mostrar el formulario solo si mostrarFormulario es true */}
+      {mostrarFormulario && (
+        <Formulario
+          equipos={equipos.map((equipo) => equipo.titulo)}
+          registrarColaborador={registrarColaborador}
+          crearEquipo={crearEquipo}
+        />
+      )}
+      <MiOrg cambiarMostrar={cambiarMostrar} />
+      {
+        equipos.map((equipo) => (
+          <Equipo
+            datos={equipo}
+            key={equipo.titulo}
+            colaboradores={colaboradores.filter(colaborador => colaborador.equipo === equipo.titulo)}
+            eliminarColaborador={eliminarColaborador}
+            actualizarColor={actualizarColor}
+            like={like}
+          />
+        ))
+      }
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

@@ -1,5 +1,4 @@
-
-
+/* Selector para el botón */
 .boton {
     background-color: #6278F7;
     border-radius: 10px;
@@ -11,6 +10,8 @@
     margin: 32px 0;
     cursor: pointer; 
 }
+
+/* Selector para el estado hover del botón */
 .boton:hover{
     color: #95FFD4;
 }
