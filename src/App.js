@@ -156,7 +156,7 @@ function App() {
   // Renderizado de los componentes
   return (
     <div>
-      <Header/>
+      <Header />
       {/* Mostrar el formulario solo si mostrarFormulario es true */}
       {mostrarFormulario && (
         <Formulario
