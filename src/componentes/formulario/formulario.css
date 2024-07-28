@@ -22,3 +22,25 @@
     font-weight: 400;
     color: #212121;
 }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    /* Estilos específicos para tablets */
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 20px;
+
+    }
+
+    .formulario form{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 599px) {
+    /* Estilos específicos para celulares */
+}
