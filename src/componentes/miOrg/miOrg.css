@@ -47,4 +47,5 @@
 .item-3 {
     display: flex;
     justify-content: center;
+    width: 100px;
 }
