@@ -43,4 +43,21 @@
 
 @media (max-width: 599px) {
     /* Estilos específicos para celulares */
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 20px;
+
+    }
+
+    .formulario form{
+        max-width: 100%;
+        height: auto;
+        padding: 20px 20px;
+    }
+
+    
 }
