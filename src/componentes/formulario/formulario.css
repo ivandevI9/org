@@ -2,8 +2,9 @@
 .formulario {
     display: flex;
     justify-content: space-evenly;
-    margin: 80px 0;
+    margin: 80px 20px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 /* Estilo para cada formulario dentro del contenedor .formulario */
@@ -11,7 +12,7 @@
     max-width: 80%;
     background-color: #F7F7F7;
     box-shadow: 7px 7px 15px 5px #00000014;
-    padding: 8px 100px;
+    padding: 5% 10%;
     flex: 1;
 }
 
