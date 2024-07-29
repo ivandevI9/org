@@ -8,3 +8,15 @@
 .header img {
     max-width: 50%;
 }
+
+@media (min-width: 600px) and (max-width: 1024px){
+    .header img{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 599px){
+    .header img{
+        max-width: 100%;
+    }
+}
