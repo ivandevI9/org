@@ -51,11 +51,18 @@
 }
 
 @media (max-width: 599px){
+
+    .orgSection{
+        box-sizing: border-box;
+    }
+    
     .contenedor{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        box-sizing: border-box;
+        padding: 0;
     }
 }
