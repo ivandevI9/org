@@ -1,5 +1,5 @@
-.header{
-    background-color: #6278F7;
+.header {
+    background-color: #6278f7;
     text-align: center;
     width: 100%;
     height: auto;
@@ -9,14 +9,14 @@
     max-width: 50%;
 }
 
-@media (min-width: 600px) and (max-width: 1024px){
-    .header img{
+@media (min-width: 600px) and (max-width: 1024px) {
+    .header img {
         max-width: 100%;
     }
 }
 
-@media (max-width: 599px){
-    .header img{
+@media (max-width: 599px) {
+    .header img {
         max-width: 100%;
     }
 }

@@ -1,14 +1,38 @@
 .footer {
     width: 100%;
+    background-color: #6278f7;
+    display: flex;
+ 
 
 }
 
 .imgBack{
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBack img{
+    max-width: 80%;
 }
 
 
 .redes img {
-    padding: 0px 15px;
+    max-width: 50%;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .imgBack img{
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .imgBack img{
+        max-width: 100%;
+    }
 }
