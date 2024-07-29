@@ -49,3 +49,13 @@
     justify-content: center;
     width: 100px;
 }
+
+@media (max-width: 599px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
