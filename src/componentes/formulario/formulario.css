@@ -58,6 +58,9 @@
         height: auto;
         padding: 20px 20px;
     }
+    .boton{
+        width: 100%;
+    }
 
     
 }
