@@ -30,7 +30,7 @@ Este es un proyecto de gestión de colaboradores, diseñado para administrar inf
 1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
 
 ```bash
-   git clone https://github.com/Ivanmx19/org.git
+git clone https://github.com/Ivanmx19/org.git
 ```
 
 Instalar Dependencias: Navega al directorio del proyecto y ejecuta:
