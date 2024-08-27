@@ -12,7 +12,7 @@ Este es un proyecto de gestión de colaboradores, diseñado para administrar inf
 
 ## Uso
 
-1. **Visualización del Proyecto:** Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://org-two-iota.vercel.app/).
+1. **Visualización del Proyecto:** Instala el repositorio de manera local y abre el archivo `index.html` en tu navegador web o visita el enlace desplegado en [Vercel](https://org-two-iota.vercel.app/).
 2. **Agregar Colaboradores:** Utiliza el formulario en la sección de organización para añadir nuevos colaboradores.
 3. **Crear Equipos:** Usa el formulario para crear nuevos equipos y asignar colaboradores.
 4. **Eliminar Colaboradores:** Puedes eliminar colaboradores desde la interfaz de usuario.
