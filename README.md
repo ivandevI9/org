@@ -33,13 +33,13 @@ Este es un proyecto de gestión de colaboradores, diseñado para administrar inf
 git clone https://github.com/Ivanmx19/org.git
 ```
 
-Instalar Dependencias: Navega al directorio del proyecto y ejecuta:
+2. Instalar Dependencias: Navega al directorio del proyecto y ejecuta:
 
 ```bash
 npm install
 ```
 
-Iniciar el Proyecto: Ejecuta el proyecto localmente con:
+3. Iniciar el Proyecto: Ejecuta el proyecto localmente con:
 ```bash
 npm start
 ```
