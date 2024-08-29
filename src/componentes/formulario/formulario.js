@@ -13,7 +13,6 @@ const Formulario = (props) => {
     const [puesto, actualizarPuesto] = useState("");
     const [foto, actualizarFoto] = useState("");
     const [equipo, actualizarEquipo] = useState("");
-
     const [titulo, actualizarTitulo] = useState("");
     const [color, actualizarColor] = useState("");
 

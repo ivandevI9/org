@@ -10,8 +10,3 @@
     margin: 32px 0;
     cursor: pointer; 
 }
-
-/* Selector para el estado hover del botón */
-.boton:hover{
-    color: #95FFD4;
-}
