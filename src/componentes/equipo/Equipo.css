@@ -15,6 +15,10 @@
     right: 50px;
 }
 
+.input-color:active {
+    transform: scale(0.95);
+}
+
 /* Estilo para el título (h3) dentro del equipo */
 .equipo h3 {
     font-weight: 400;
@@ -34,9 +38,9 @@
 
 @media (max-width: 599px) {
 
-    .input-color{
+    .input-color {
         top: 5px;
         right: 5px;
     }
-    
+
 }

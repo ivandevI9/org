@@ -25,6 +25,11 @@
 /* Hace que las imágenes dentro de .orgSection tengan el cursor de puntero */
 .orgSection img {
     cursor: pointer;
+
+}
+
+.orgSection img:active {
+    transform: scale(0.95);
 }
 
 /* Ajusta la imagen para que ocupe el 100% del ancho del contenedor, manteniendo la proporción */

@@ -7,7 +7,6 @@ import Boton from "../boton";
 
 // Definición del componente funcional Formulario
 const Formulario = (props) => {
-
     // Estados locales para gestionar los valores de los campos del formulario
     const [nombre, actualizarNombre] = useState("");
     const [puesto, actualizarPuesto] = useState("");
@@ -17,7 +16,7 @@ const Formulario = (props) => {
     const [color, actualizarColor] = useState("");
 
     // Extracción de las funciones registrarColaborador y crearEquipo de las props
-    const { registrarColaborador, crearEquipo } = props
+    const { registrarColaborador, crearEquipo } = props;
 
     // Función para manejar el envío del formulario de colaborador
     const manejarEnvio = (e) => {
@@ -26,16 +25,16 @@ const Formulario = (props) => {
             nombre,
             puesto,
             foto,
-            equipo
-        }
+            equipo,
+        };
         registrarColaborador(datosAEnviar);
-    }
+    };
 
     // Función para manejar el envío del formulario de equipo
     const manejarNuevoEquipo = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         crearEquipo({ titulo: titulo, colorPrimario: color });
-    }
+    };
 
     // Renderizado del componente
     return (
@@ -73,11 +72,8 @@ const Formulario = (props) => {
                     equipos={props.equipos}
                 />
                 {/* Botón para enviar el formulario */}
-                <Boton>
-                    Crear
-                </Boton>
+                <Boton>Crear</Boton>
             </form>
-
             <form onSubmit={manejarNuevoEquipo}>
                 <h2>Rellena el formulario para crear el equipo.</h2>
                 {/* Componente Campo para el título del equipo */}
@@ -98,13 +94,11 @@ const Formulario = (props) => {
                     type="color"
                 />
                 {/* Botón para enviar el formulario */}
-                <Boton>
-                    Registrar equipo
-                </Boton>
+                <Boton>Registrar equipo</Boton>
             </form>
         </section>
-    )
-}
+    );
+};
 
 // Exportación del componente para ser usado en otros archivos
 export default Formulario;

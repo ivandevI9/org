@@ -55,3 +55,11 @@
     right: -15px;
     top: -15px;
 }
+
+.eliminar:active {
+    transform: scale(0.95);
+}
+
+svg:active {
+    transform: scale(0.95);
+}
