@@ -63,3 +63,22 @@
 svg:active {
     transform: scale(0.95);
 }
+
+@media (max-width: 599px) {
+    .colaborador {
+        width: 100%;
+    }
+
+    .colaborador img {
+        width: 80px;
+        bottom: -40px;
+    }
+
+    .colaborador .info h4 {
+        font-size: 18px;
+    }
+
+    .colaborador .info h5 {
+        font-size: 16px;
+    }
+}

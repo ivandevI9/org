@@ -24,8 +24,9 @@
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
+
     /* Estilos específicos para tablets */
-    .formulario{
+    .formulario {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -35,15 +36,16 @@
 
     }
 
-    .formulario form{
+    .formulario form {
         max-width: 100%;
         height: auto;
     }
 }
 
 @media (max-width: 599px) {
+
     /* Estilos específicos para celulares */
-    .formulario{
+    .formulario {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -53,14 +55,22 @@
 
     }
 
-    .formulario form{
+    .formulario form {
         max-width: 100%;
         height: auto;
         padding: 20px 20px;
     }
-    .boton{
+
+    .boton {
         width: 100%;
     }
 
-    
+    .formulario h2 {
+        font-size: 25px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+
+
 }
