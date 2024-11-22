@@ -1,4 +1,4 @@
-# Proyecto de Gestión de Colaboradores - Org
+# Org
 
 Este es un proyecto de gestión de colaboradores, diseñado para administrar información de empleados y equipos en una organización. Permite la adición, edición y eliminación de colaboradores y equipos, con una interfaz amigable y funcionalidades interactivas.
 
@@ -20,10 +20,10 @@ Este es un proyecto de gestión de colaboradores, diseñado para administrar inf
 
 ## Tecnologías Utilizadas
 
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **React**
+- HTML
+- CSS
+- JavaScript
+- React
 
 ## Instalación
 
